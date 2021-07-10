@@ -1,0 +1,64 @@
+.title{
+  text-align: center;
+  margin-top: 25px;
+}
+
+.form{
+  margin: auto;
+  max-width: 80%;
+  text-align: center;
+}
+
+table{
+  table-layout: fixed;
+  margin: 0 auto;
+  width: 500px;
+}
+
+input[type='submit'], button, [aria-label]{
+  cursor: pointer;
+}
+
+#edit-box{
+  display: none;
+  max-width: 80%;
+  text-align: center;
+}
+
+td{
+  background-color: aliceblue;
+  padding-right: 10px;
+}
+
+.to-do{
+  background: transparent !important;
+  margin: 0 auto;
+}
+
+.row{
+  margin-top: .5em;
+}
+
+@media screen and (max-width: 580px) {
+  table{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .form{
+    width: 80%;
+  }
+  table{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 305px) {
+  .btn-primary{
+    margin-top: 1em;
+  }
+}
+
+
+
